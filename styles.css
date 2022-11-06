@@ -1,0 +1,78 @@
+body{
+    background-color: #001347;
+    background-image: url("https://cdn.pixabay.com/photo/2021/02/18/12/03/people-6027028_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #formbox{
+    background-color: #1b1b32;
+    width: 50%;
+    margin: auto;
+  }
+  
+  #title{
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 0.5em;
+  }
+  
+  #description{
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 0.5em;
+    width: 90%;
+  }
+  
+  #survey-form{
+    width: 90%;
+    margin: auto;
+    color: white;
+    text-align: left;
+    padding: 1em;
+    font-size: 16px;
+  }
+
+  #name, #email, #number, #resume{
+    margin: 0.5em auto;
+    width: 100%;
+  }
+
+  #personal-info{
+    height: fit-content;
+    border: none;
+    border-top: 0.1em solid #464C70;
+    border-bottom: 0.1em solid #464C70;
+  }
+
+  #personal-info-legend{
+    font-size: 20px;
+  }
+
+  #more-info{
+    border: none;
+    border-bottom: 0.1em solid #464C70;
+  }
+
+  textarea{
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 20vh;
+  }
+
+  .last-part{
+    margin: 0.5em auto;
+  }
+
+  #radio2{
+    margin-left: 2em;
+  }
+
+  #submit{
+    width: 40%;
+    margin: 0.5em auto;
+  }
